@@ -14,10 +14,10 @@
 # x=lambda x,y: x+y
 # print(x(10,20))
 
-# x=lambda x,y: x+y
-# p=int(input("enter fist number"))
-# q=int(input("enter secend number"))
-# print(x(p,q))
+x=lambda x,y: x+y
+p=int(input("enter fist number"))
+q=int(input("enter secend number"))
+print(x(p,q))
 
 
 
