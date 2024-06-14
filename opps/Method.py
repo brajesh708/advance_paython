@@ -1,15 +1,15 @@
-# class Student:
-#     def display(self,name):
-#         self.name=name
-#         print("name=",name)
+class Student:
+    def display(self,name):
+        self.name=name
+        print("name=",name)
         
-#     def show(self,age):
-#         self.age=age
-#         self.display("raj")
-#         print("age=",age)
-# obj=Student()
-# obj.display("Brajesh")
-# obj.show(22)
+    def show(self,age):
+        self.age=age
+        self.display("raj")
+        print("age=",age)
+obj=Student()
+obj.display("Brajesh")
+obj.show(22)
 
 
 #  class methode banane ki 
