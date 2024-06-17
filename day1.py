@@ -12,13 +12,13 @@ print(addnew)
 
 #  next 
 # 5 add kiya he map function ke turuuu
-# my_list=[10,20,30,40,50]
-# def add(n):
-#     return n+5
-# x=map(add,my_list)
-# print(x)
-# # print(tuple(x))
-# print(list(x))
+my_list=[10,20,30,40,50]
+def add(n):
+    return n+5
+x=map(add,my_list)
+print(x)
+# print(tuple(x))
+print(list(x))
 
 
 
