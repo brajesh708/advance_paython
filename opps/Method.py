@@ -64,3 +64,7 @@ Student.greet()
 obj.great1()
 
 
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 0ec56beff6a7bcc381cef74b12934fb7a3b3dc32

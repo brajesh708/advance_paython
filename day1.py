@@ -2,23 +2,23 @@
 
 # 5 add kiya he map for loop ke turuuu
 # advance python me higher order function 
-# my_list=[10,20,30,40,50]
-# addnew=[]
-# for i in my_list:
-#     x=i+5
-#     addnew.append(x)
-# print(addnew)
+my_list=[10,20,30,40,50]
+addnew=[]
+for i in my_list:
+    x=i+5
+    addnew.append(x)
+print(addnew)
 
 
 #  next 
 # 5 add kiya he map function ke turuuu
-# my_list=[10,20,30,40,50]
-# def add(n):
-#     return n+5
-# x=map(add,my_list)
-# print(x)
-# # print(tuple(x))
-# print(list(x))
+my_list=[10,20,30,40,50]
+def add(n):
+    return n+5
+x=map(add,my_list)
+print(x)
+# print(tuple(x))
+print(list(x))
 
 
 
