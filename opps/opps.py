@@ -73,17 +73,17 @@
 #  self is a reference variale of currunt object of current class 
 
 
-# class Student:
-#     Qualifilation="M.tech"  #static variavle jo kabhi na badle 
-#     def __init__(self,name):
-#         self.name=name     # instence variable   jo obj ke sath badle
-#     def display(self):
-#         age=37              # local variable    jo function ke ander hi coll ho
-#         print("name",self.name)
-#         print("age",age)
-#         print("qualification",Student.Qualifilation)
-# obj=Student("brajesh")
-# obj.display() 
+class Student:
+    Qualifilation="M.tech"  #static variavle jo kabhi na badle 
+    def __init__(self,name):
+        self.name=name     # instence variable   jo obj ke sath badle
+    def display(self):
+        age=37              # local variable    jo function ke ander hi coll ho
+        print("name",self.name)
+        print("age",age)
+        print("qualification",Student.Qualifilation)
+obj=Student("brajesh")
+obj.display() 
 
 
 
