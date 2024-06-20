@@ -7,12 +7,12 @@
 # esa function jo maltipal expresan lekar return kare  multipal output
     
     
-# x=lambda name : print("heelo",name)
-# x ("brajesh")
+x=lambda name : print("heelo",name)
+x ("brajesh")
 
 
-# x=lambda x,y: x+y
-# print(x(10,20))
+x=lambda x,y: x+y
+print(x(10,20))
 
 x=lambda x,y: x+y
 p=int(input("enter fist number"))
