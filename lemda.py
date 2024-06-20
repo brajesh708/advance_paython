@@ -26,15 +26,15 @@ print(x(p,q))
 # x(y)
 
 
-# my_list=[10,20,30,40,50]
-# x=list(map(lambda x: x**2,my_list))
-# print(x)
+my_list=[10,20,30,40,50]
+x=list(map(lambda x: x**2,my_list))
+print(x)
 
 
 #  even number
-# my_list=[10,20,30,40,50,43,23]
-# x=list(filter(lambda x: x%2==0 ,my_list))
-# print(x)
+my_list=[10,20,30,40,50,43,23]
+x=list(filter(lambda x: x%2==0 ,my_list))
+print(x)
 
 
 # odd number
