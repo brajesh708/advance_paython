@@ -21,8 +21,8 @@ print(f.closed)
 f.close()
 print(f.closed)
 
-# f=open('h1.py','x')
-# print(f.mode)
+f=open('h1.py','x')
+print(f.mode)
 
 
 # new data likne ke liye 
@@ -31,17 +31,17 @@ print(f.closed)
 # p.close()
 
 # maltiple line ke  liye 
-# p=open('h5.txt','w')
-# data=("this  is my new data \n","my name is  brajesh \n", "go to ehore")
-# p.writelines(data)
-# print(p.writable())
+p=open('h5.txt','w')
+data=("this  is my new data \n","my name is  brajesh \n", "go to ehore")
+p.writelines(data)
+print(p.writable())
 
 
 #  read karne ke liye 
-# p=open('h5.txt','r')
-# print(p.mode)
-# data=p.read()
-# print(data)
+p=open('h5.txt','r')
+print(p.mode)
+data=p.read()
+print(data)
 
 
 
