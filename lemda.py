@@ -63,11 +63,11 @@ from functools import reduce
 # print(x)
 
 
-# my_list=[10,20,30,40,50,43,23]
-# def max(x,y):
-#     return x+y
-# x= reduce(max,my_list)
-# print(x)
+my_list=[10,20,30,40,50,43,23]
+def max(x,y):
+    return x+y
+x= reduce(max,my_list)
+print(x)
 
 
 
