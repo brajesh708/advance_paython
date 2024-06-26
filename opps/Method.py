@@ -16,22 +16,22 @@ obj.show(22)
 # @classmethod
 # self  ke place per use cls
 
-# class Book:
-#     price=1000
-#     def book_detail(self,name,author):
-#         self.name=name
-#         self.author=author
-#     @classmethod
-#     def update_price(cls,price):
-#         cls.price=price
-#     def show_data(self):
-#         print('Book Name=',self.name)
-#         print('Book Author=',self.author)
-#         print('Book Price=',self.price)
-# obj=Book()
-# obj.book_detail('Python','Vaishu')
-# obj.update_price(1500)
-# obj.show_data()
+class Book:
+    price=1000
+    def book_detail(self,name,author):
+        self.name=name
+        self.author=author
+    @classmethod
+    def update_price(cls,price):
+        cls.price=price
+    def show_data(self):
+        print('Book Name=',self.name)
+        print('Book Author=',self.author)
+        print('Book Price=',self.price)
+obj=Book()
+obj.book_detail('Python','Vaishu')
+obj.update_price(1500)
+obj.show_data()
 
     # static methode 
 # class Student:
