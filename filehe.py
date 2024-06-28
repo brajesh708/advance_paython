@@ -9,11 +9,11 @@
 
 
 # new file creat
-# p=open('h5.txt','x')
-# print(p.mode)  
-# print(p.closed)
-# p.close()
-# print(p.closed)
+p=open('h5.txt','x')
+print(p.mode)  
+print(p.closed)
+p.close()
+print(p.closed)
 
 f=open('h5.txt','w')
 print(f.mode)
