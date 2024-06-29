@@ -21,9 +21,9 @@ print(x(p,q))
 
 
 
-# x=lambda name : print("heelo",name)
-# y=input("enter your anme")
-# x(y)
+x=lambda name : print("heelo",name)
+y=input("enter your anme")
+x(y)
 
 
 my_list=[10,20,30,40,50]
@@ -73,36 +73,36 @@ print(x)
 
 # reduce function ka use ham collation me se 1 obj return karna ho too reduce ka use karte he
 
-# my_list=[10,21,123,1233,14]
-# def max(x,y):
-#     if x>y:
-#         return x
-#     else:
-#         return y
-# x=reduce(max,my_list)
-# print(x)
+my_list=[10,21,123,1233,14]
+def max(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+x=reduce(max,my_list)
+print(x)
 
 
 
-# my_list=[10,21,123,1233,14]
-# def max(x,y):
-#     if x<y:
-#         return x
-#     else:
-#         return y
-# x=reduce(max,my_list)
-# print(x)
+my_list=[10,21,123,1233,14]
+def max(x,y):
+    if x<y:
+        return x
+    else:
+        return y
+x=reduce(max,my_list)
+print(x)
 
 
 
-# my_list=[10,21,123,1233,14]
-# def max(x,y):
-#     if x+y:
-#         return x+y
-#     # else:
-#     #     return y
-# x=reduce(max,my_list)
-# print(x)
+my_list=[10,21,123,1233,14]
+def max(x,y):
+    if x+y:
+        return x+y
+    # else:
+    #     return y
+x=reduce(max,my_list)
+print(x)
 
 
 x=int(input("enter any number"))
