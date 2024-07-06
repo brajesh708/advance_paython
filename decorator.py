@@ -20,12 +20,26 @@ var()
     
 
     
+# def decorator(fun):
+#     def wrapper():
+#         print("start work")
+#         fun()
+#         print("stop work")
+#     return wrapper
+# @decorator
+# def Student():
+#     print("this is a orignal ")
+# Student()
+
+
+
+    
 def decorator(fun):
-    def wrapper():
+    def wraper():
         print("start work")
         fun()
         print("stop work")
-    return wrapper
+    return wraper
 @decorator
 def Student():
     print("this is a orignal ")

@@ -2,7 +2,6 @@
 # text file 
 # binary file esme idio or vidio or img rakte he
 
-
 #  open()
 # write /read/delet/edit 
 # close() 
