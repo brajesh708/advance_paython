@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # n=[10,20,30,40,50]
@@ -15,3 +16,6 @@
 x=lambda name : print("heelo",name)
 y=input("enter your anme")
 x(y)
+=======
+this is a new file in the folder
+>>>>>>> c57efc054383a2567561f0ac6f7ae00e55f1f6ea
