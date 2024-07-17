@@ -106,21 +106,21 @@ print(data)
 # print(p.read(10))
 
 
-# p=open('h5.txt','rb')
-# print(p.tell())
-# p.seek(10,1)
-# print(p.tell())
-# print(p.read(10))
+p=open('h5.txt','rb')
+print(p.tell())
+p.seek(10,1)
+print(p.tell())
+print(p.read(10))
 
 
 
-# p=open('h5.txt','rb')
-# print(p.tell())
-# print(p.read(12))
-# p.seek(10,0)
-# print(p.tell())
-# print(p.read(10))
-# p.close()
+p=open('h5.txt','rb')
+print(p.tell())
+print(p.read(12))
+p.seek(10,0)
+print(p.tell())
+print(p.read(10))
+p.close()
 
 
 
