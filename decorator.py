@@ -34,13 +34,25 @@ var()
 
 
     
+# def decorator(fun):
+#     def wraper():
+#         print("start work")
+#         fun()
+#         print("stop work")
+#     return wraper
+# @decorator
+# def Student():
+#     print("this is a orignal ")
+# Student()
+
+
 def decorator(fun):
-    def wraper():
-        print("start work")
+    def wrapper():
+        print("welcome to my profile")
         fun()
-        print("stop work")
-    return wraper
+        print("thanku so much for vizit my profile")
+    return wrapper
 @decorator
-def Student():
-    print("this is a orignal ")
-Student()
+def Brajesh():
+    print("this is brajesh mewada site ")
+Brajesh()
