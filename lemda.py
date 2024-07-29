@@ -69,6 +69,11 @@ def max(x,y):
 x= reduce(max,my_list)
 print(x)
 
+my_list=[10,20,30,40,50,43,23]
+def sum(x,y):
+    return x+y
+x= reduce(sum,my_list)
+print(x)
 
 
 # reduce function ka use ham collation me se 1 obj return karna ho too reduce ka use karte he
