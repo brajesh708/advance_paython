@@ -35,9 +35,16 @@
 # p.writelines(data)
 # print(p.writable())
 
-f=open('file01.txt','w')
+# f=open('file01.txt','w')
+# f.write("this is my new file in 02/08/2024")
+# f.close()
+
+f=open('file01.txt','r')
 f.write("this is my new file in 02/08/2024")
-f.close()
+data=f.read()
+print(data)
+
+
 
 
 # #  read karne ke liye 
