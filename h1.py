@@ -1,1 +1,1 @@
-this is new name = models.ForeignKey('TargetModel', related_name='', on_delete=models.CASCADE)
+this is new
