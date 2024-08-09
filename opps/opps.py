@@ -109,14 +109,24 @@ obj1.display()
 
 
 #  using instance method
-# class Student:
-#     def display(self,name):
-#        self.name=name
-#     def show(self):
-#         print("name",self.name)
-# obj=Student()
-# obj.display("brajesh")
-# obj.show()
+class Student:
+    def display(self,name):
+       self.name=name
+    def show(self):
+        print("name",self.name)
+obj=Student()
+obj.display("brajesh")
+obj.show()
+
+class Bank:
+    def display(self,name):
+       self.name=name
+    def show(self):
+        print("name",self.name)
+obj=Bank()
+obj.display("brajesh")
+obj.show()
+
 
 
 #  3  using though object 
