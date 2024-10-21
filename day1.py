@@ -82,8 +82,8 @@ print(list(x))
 
 
 # kisi number ki ask ki velue 
-# n=input("enter any number")
-# print(ord("n"))
+n=input("enter any number")
+print(ord("n"))
 
 
 
